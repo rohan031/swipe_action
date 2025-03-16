@@ -1,7 +1,7 @@
-name: swipe_action
+name: swipe_callback
 description: "A simple flutter package to add swipe to reply functionality similar to that of Whatsapp."
 version: 1.0.0
-repository: https://github.com/rohan031/swipe_action
+repository: https://github.com/rohan031/swipe_callback
 
 environment:
   sdk: ^3.7.0

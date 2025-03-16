@@ -1,8 +1,8 @@
-# swipe_reply
+# swipe_callback
 A simple flutter package to add swipe to reply functionality similar to that of Whatsapp.
 <p>
-  <img src="https://github.com/rohan031/swipe_action/blob/main/example.gif?raw=true"
-    alt="Swipe Action plugin animated image" height="400"/>
+  <img src="https://github.com/rohan031/swipe_callback/blob/main/example.gif?raw=true"
+    alt="Swipe Callback plugin animated image" height="400"/>
 </p>
 
 
@@ -15,7 +15,7 @@ Use this plugin in your Flutter app to:
 ## Example
 
 ```dart
-SwipeAction(
+SwipeCallback(
   swipeDirection: swipeDirection,
   onSwipeSuccess: () {
     showSnackBar("Swipe success triggered");

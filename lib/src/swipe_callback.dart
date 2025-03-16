@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:swipe_action/src/swipe_action_enum.dart';
+import 'package:swipe_callback/swipe_callback.dart';
 
-class SwipeAction extends StatefulWidget {
-  const SwipeAction({
+class SwipeCallback extends StatefulWidget {
+  const SwipeCallback({
     super.key,
     required this.onSwipeSuccess,
     required this.child,
@@ -22,10 +22,10 @@ class SwipeAction extends StatefulWidget {
   final double threshold;
 
   @override
-  State<SwipeAction> createState() => _SwipeActionState();
+  State<SwipeCallback> createState() => _SwipeCallbackState();
 }
 
-class _SwipeActionState extends State<SwipeAction>
+class _SwipeCallbackState extends State<SwipeCallback>
     with SingleTickerProviderStateMixin {
   /// initial position of widget when swipe is first triggered
   double start = 0;

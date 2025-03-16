@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "package:swipe_action/swipe_action.dart";
+import 'package:swipe_callback/swipe_callback.dart';
 
 void main() {
   runApp(const MyApp());
@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
             style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
           ),
         ),
-        SwipeAction(
+        SwipeCallback(
           swipeDirection: swipeDirection,
           onSwipeSuccess: () {
             showSnackBar("Swipe success triggered");
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
         ),
-        SwipeAction(
+        SwipeCallback(
           swipeDirection: swipeDirection,
           onSwipeSuccess: () {
             showSnackBar("Swipe success triggered");
